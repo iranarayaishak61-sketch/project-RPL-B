@@ -19,9 +19,12 @@
     />
 
     <link rel="shortcut icon" href="image/logo rumah impian.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-dark position-fixed w-100">
       <div class="container">
         <a class="navbar-brand" href="#"> <img src="image/logo rumah impian.png" alt="Logo" width="30" class="d-inline-block align-text-top me-2"> Rumah Impian</a>
         <button
@@ -38,30 +41,56 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Layanan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Fitur</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link">Kontak</a>
             </li>
           </ul>
           <div>
-            <button>Daftar</button>
-            <button>Masuk</button>
+            <button class="btn-daftar">Daftar</button>
+            <button class="btn-masuk">Masuk</button>
           </div>
         </div>
       </div>
     </nav>
+    <!-- End Navbar -->
 
+    <!-- section hero -->
+    <section id="hero">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-md-6 my-auto text-hero">
+            <h1>Membantu Temukan Rumah Impian.</h1>
+            <p class="mt-4 mb-4"><span class="fw-bold">Rumah Impian</span> hadir untuk temukan rumah terbaik untukmu, untuk di jual ataupun di sewa dengan sumber<br> terpercaya.</p>
+            <button class="btn-lg">Temukan Rumah </button>
+            <img src="image/arrow.png" alt="">
+          </div>
+        </div>
+        <img src="image/herro-banner.png" alt="" class="position-absolute end-0 bottom-0 h-100">
+        <img src="image/accent-banner.png" alt="" class="position-absolute start-0 top-0 h-100 accent-banner">
+      </div>
+    </section>
+    <!-- End Section hero -->
 
-
-
-    
+    <!-- Section Layanan -->
+    <section id="our-service">
+      <div class="container h-100">
+        <div class="row">
+          <div class="col-md">
+            <h1>Layanan Kami</h1>
+            <p>Rumah impian hadir menjadi solusi bagi kamu</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section Layanan -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
