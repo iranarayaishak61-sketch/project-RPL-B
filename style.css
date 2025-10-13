@@ -82,7 +82,12 @@ body{
 
 /* Layanan Style */
 #our-service{
-    height: 100vh;
+    padding: 100px 0;
+}
+.container h1{
+    color: var(--pr-hijau);
+    font-size: 48;
+    font-weight: 500;
 }
 .container-img{
     display: flex;
@@ -91,13 +96,38 @@ body{
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--pr-hijau);
 }
 .card-layanan{
     height: 313px;
     padding: 40px;
+    background-color:#fff;
+    border-radius: 5px;
+}
+.card-layanan h4{
+    font-size: 24;
+    font-weight: 500;
+    color:var(--pr-hijau);
+}
+.card-layanan p{
+    color: #000;
+}
+/* Hover card */
+.card-layanan:hover{
+    height: 313px;
+    padding: 40px;
     background: linear-gradient(160deg, var(--pr-hijau),#000000e4);
     border-radius: 5px;
+}
+.card-layanan:hover h4{
+    font-size: 24;
+    font-weight: 500;
     color: #fff;
+}
+.card-layanan:hover p{
+    color: #fff;
+}
+.card-layanan:hover .container-img{
+    background-color: #fff;
 }
 /* End Layanan */
