@@ -148,7 +148,7 @@ p{
 
 /* style temukan rumah */
 #temukan-rumah{
-    height: 100vh;
+    height: 100vh; /* Viewport Height */
     background-image: url(image/interior\ green.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,16 +231,42 @@ p{
 
 /* style rekomendasi rumah */
 #rekomendasi{
-    height: 100vh; /* Viewport Height */
+    height: 200vh;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.crd{
+    height: 100px;
 }
 .card-rek{
     height: 489px;
-    width: 380px;
+    width: 350px;
     background-color: #fff;
     border-radius: 5px;
 }
 .card-gbr{
     height: 280px;
-    
+}
+.idr{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+.jl{
+    font-size: 14px;
+    font-weight: 400;
+}
+.fasilitas{
+    height: 67px;
+    background-color: #fff;
+    padding: 5px;
+}
+.sub-fsi{
+    font-size: 12px;
+    font-weight: 400;
+}
+.card-rek:hover{
+    background: linear-gradient(160deg, var(--pr-hijau), #000);
+    transition: all 0.5s ease-in;
 }
 /* end style rekomendasi rumah */
