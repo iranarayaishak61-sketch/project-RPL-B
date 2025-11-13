@@ -267,4 +267,8 @@ p{
 .card:hover .card-fasilitas{
     background-color: #fff;
 }
+.Lihatl{
+    font-size: 18px;
+    font-weight: 400;
+}
 /* end style rekomendasi rumah */
