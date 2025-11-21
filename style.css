@@ -273,3 +273,21 @@ p{
     font-weight: 400;
 }
 /* end style rekomendasi rumah */
+
+/* Style Fitur Rumah */
+#fitur{
+    height: 100vh;
+}
+.fitur-fnt{
+    font-weight: 600;
+    font-size: 48px;
+}
+.btn-e{
+    width: 235px;
+    height: 60px;
+    border-radius: 0 0 0 0;
+    background-color: var(--pr-hijau);
+    color: #fff;
+    border: none;
+}
+/* End Style Fitur Rumah */
