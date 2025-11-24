@@ -22,12 +22,15 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <!-- NAVBAR -->
     <nav
-      class="navbar navbar-expand-lg bg-transparent navbar-dark position-fixed w-100"
-    >
+      class="navbar navbar-expand-lg bg-transparent navbar-dark position-fixed w-100">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img
@@ -644,11 +647,24 @@
             <h1>Fitur Rumah</h1>
           </div>
           <div class="col-6 d-flex justify-content-end">
-            <button type="button" class="btn btn-success btn-e">Lihat Semua..
-              <img src="image/arrow.png" alt="">
+            <button type="button" class="btn btn-success btn-e">
+              Lihat Semua..
+              <i class="bi bi-caret-right-fill"></i>
             </button>
           </div>
-
+        </div>
+      </div>
+      <div class="container">
+        <div class="card-fitur position-relative">
+          <img src="image/ruang1.png" alt="" />
+          <div class="overlay position-absolute top-0 bottom-0 start-0 end-0">
+            <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+              <h5>Kamar Tidur</h5>
+              <span>Rumah Minimalis Type-A2</span>
+              <h4>IDR.200JT</h4>
+              <button class="btn-lr">Lihat Rumah</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
